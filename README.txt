@@ -3,6 +3,8 @@ Python: python3 TreeEnumerationDp.py N  where N is an integer stands for number 
 Ocaml: ocaml TreeEnumeration.ml N where N is an integer stands for number of nodes
 C#: csc Program.cs then Program
 
+For swift,Java, and C# we use iteration because we find it easier for us. These languages work almost the same so after we finished Python version, the rest two only need switch some keywords. C# has no global variable so we use a class to store all computed layouts. The computed layout is a set of set of strings and is part of our design of dynamic programming. After computing layout the T(n) tree we store it so next time when we need it we do not need to redo all the works. The other languages  do not have a good iteration function. So we are forced to write recursive functions. 
+
 For Ocaml version T(1) to T(3) works perfectly. From T(4) we had some issue with formatting. A sample output is
 (.(.(.(.))))
 (.(.((.).)))
