@@ -1,6 +1,7 @@
 To compile and run use command:
 Python: python3 TreeEnumerationDp.py N  where N is an integer stands for number of nodes
 Ocaml: ocaml TreeEnumeration.ml N where N is an integer stands for number of nodes
+C#: csc Program.cs then Program
 
 For Ocaml version T(1) to T(3) works perfectly. From T(4) we had some issue with formatting. A sample output is
 (.(.(.(.))))
